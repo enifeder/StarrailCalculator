@@ -6,16 +6,16 @@ classdef DamageAttributes
         basicATK = 1016; %基础白值
         attackAmp = 0; %攻击增幅
         addATK = 2337; %额外白值
-        amplitude = 0.27+0.63; %技能倍率
-        damageAmp = 0.1; %增伤
-        criChance = 0.78; %暴击率
-        criDamage = 1.072; %暴击伤害
-        toughness = 0.1; %韧性
-        damageResist = 0.2; %属性抗性
-        vulnerable = 0; %易伤
-        penetrate = 0; %穿透
-        debuffResist = 0; %debuff抵抗
-        defenceAmp = 0.1; %减防
+        amplitude = 0.27+0.63; %技能倍率Amp
+        damageAmp = 0.1; %增伤dAmp
+        criChance = 0.78; %暴击率criC
+        criDamage = 1.072; %暴击伤害criD
+        toughness = 0.1; %韧性T
+        damageResist = 0.2; %属性抗性R
+        vulnerable = 0; %易伤V
+        penetrate = 0; %穿透P
+        debuffResist = 0; %debuff抵抗buffC
+        defenceAmp = 0.1; %减防dfAmp
         pLevel = 70; %我方等级
         eLevel = 63; %敌方等级
     end

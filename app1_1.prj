@@ -1,10 +1,10 @@
 <deployment-project plugin="plugin.webdeploy" plugin-version="1.0">
-  <configuration file="D:\Work\Matlab\app1_1.prj" location="D:\Work\Matlab" name="app1_1" target="target.webdeploy" target-name="Web App Compiler">
-    <param.appname>app1_1</param.appname>
-    <param.version>1.0</param.version>
-    <param.displayname>app1_1</param.displayname>
-    <param.authnamewatermark />
-    <param.summary>简易伤害计算器v1.0</param.summary>
+  <configuration file="D:\Work\Matlab\app1\app1_1.prj" location="D:\Work\Matlab\app1" name="app1_1" target="target.webdeploy" target-name="Web App Compiler">
+    <param.appname>appDistribute</param.appname>
+    <param.version>1.1</param.version>
+    <param.displayname>appDistribute</param.displayname>
+    <param.authnamewatermark>enifed</param.authnamewatermark>
+    <param.summary>简易伤害计算器v1.1</param.summary>
     <param.screenshot>C:\Users\Enifeder\AppData\Local\Temp\tpe0c48017_6aba_4fec_8180_afabedd0ad0b.png</param.screenshot>
     <param.intermediate>${PROJECT_ROOT}\app1_1\for_testing</param.intermediate>
     <param.files.only>${PROJECT_ROOT}\app1_1\for_redistribution_files_only</param.files.only>
@@ -13,9 +13,7 @@
     <param.target.type>subtarget.web.app</param.target.type>
     <param.user.defined.mcr.options />
     <unset>
-      <param.version />
       <param.displayname />
-      <param.authnamewatermark />
       <param.intermediate />
       <param.files.only />
       <param.output />
@@ -30,7 +28,7 @@
     <fileset.depfun />
     <fileset.package />
     <build-deliverables>
-      <file location="${PROJECT_ROOT}\app1_1\for_testing" name="app1_1.ctf" optional="false">D:\Work\Matlab\app1_1\for_testing\app1_1.ctf</file>
+      <file location="${PROJECT_ROOT}\app1_1\for_testing" name="appDistribute.ctf" optional="false">D:\Work\Matlab\app1\app1_1\for_testing\appDistribute.ctf</file>
     </build-deliverables>
     <workflow />
     <matlab>
