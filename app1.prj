@@ -1,19 +1,19 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
-  <configuration build-checksum="3065735725" file="D:\Work\Matlab\app1.prj" location="D:\Work\Matlab" name="app1" preferred-package-location="D:\Work\Matlab\app1\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+  <configuration build-checksum="1290460214" file="D:\Work\Matlab\StarrailCalculator\app1.prj" location="D:\Work\Matlab\StarrailCalculator" name="app1" preferred-package-location="D:\Work\Matlab\StarrailCalculator\app1\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
     <param.appname>StarrailSimpleCalculator</param.appname>
     <param.icon />
     <param.icons />
-    <param.version>1.0</param.version>
+    <param.version>1.1</param.version>
     <param.authnamewatermark>enifed</param.authnamewatermark>
     <param.email />
     <param.company />
-    <param.summary>简易伤害计算器v1.0</param.summary>
+    <param.summary>简易伤害计算器v1.1</param.summary>
     <param.description>以图表的方式直观显示期望伤害未来增益比较</param.description>
-    <param.screenshot>C:\Users\Enifeder\OneDrive\桌面\啊啊啊啊啊啊.png</param.screenshot>
+    <param.screenshot />
     <param.guid />
     <param.installpath.string>\StarrailSimpleCalculator\</param.installpath.string>
     <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
-    <param.logo>C:\Users\Enifeder\OneDrive\桌面\啊啊啊啊啊啊.png</param.logo>
+    <param.logo />
     <param.install.notes />
     <param.target.install.notes />
     <param.intermediate>${PROJECT_ROOT}\app1\for_testing</param.intermediate>
@@ -27,8 +27,8 @@
     <param.web.mcr>false</param.web.mcr>
     <param.package.mcr>true</param.package.mcr>
     <param.no.mcr>false</param.no.mcr>
-    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
-    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.web.mcr.name>Installer_web</param.web.mcr.name>
+    <param.package.mcr.name>Installer_mcr</param.package.mcr.name>
     <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
     <param.windows.command.prompt>true</param.windows.command.prompt>
     <param.create.log>false</param.create.log>
@@ -40,12 +40,13 @@
     <unset>
       <param.icon />
       <param.icons />
-      <param.version />
       <param.email />
       <param.company />
+      <param.screenshot />
       <param.guid />
       <param.installpath.string />
       <param.installpath.combo />
+      <param.logo />
       <param.install.notes />
       <param.target.install.notes />
       <param.intermediate />
@@ -57,8 +58,6 @@
       <param.target.type />
       <param.support.packages />
       <param.no.mcr />
-      <param.web.mcr.name />
-      <param.package.mcr.name />
       <param.no.mcr.name />
       <param.windows.command.prompt />
       <param.create.log />
@@ -75,9 +74,9 @@
     <fileset.package />
     <fileset.depfun />
     <build-deliverables>
-      <file location="${PROJECT_ROOT}\app1\for_testing" name="StarrailSimpleCalculator.exe" optional="false">D:\Work\Matlab\app1\for_testing\StarrailSimpleCalculator.exe</file>
-      <file location="${PROJECT_ROOT}\app1\for_testing" name="readme.txt" optional="true">D:\Work\Matlab\app1\for_testing\readme.txt</file>
-      <file location="${PROJECT_ROOT}\app1\for_testing" name="splash.png" optional="false">D:\Work\Matlab\app1\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\app1\for_testing" name="splash.png" optional="false">D:\Work\Matlab\StarrailCalculator\app1\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\app1\for_testing" name="StarrailSimpleCalculator.exe" optional="false">D:\Work\Matlab\StarrailCalculator\app1\for_testing\StarrailSimpleCalculator.exe</file>
+      <file location="${PROJECT_ROOT}\app1\for_testing" name="readme.txt" optional="true">D:\Work\Matlab\StarrailCalculator\app1\for_testing\readme.txt</file>
     </build-deliverables>
     <workflow />
     <matlab>
